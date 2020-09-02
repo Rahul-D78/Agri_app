@@ -1,0 +1,46 @@
+p {
+    color: aqua;
+}
+
+div {
+    color: blue;
+}
+
+p + div {
+    color: chartreuse;
+}
+
+#p3 {
+    font-size: 30pt;
+}
+
+div.stretch {
+    transform: scaleX(3);
+}
+
+div.shift {
+    transform: translateX(30px);
+}
+
+#hover {
+    padding: 20px;
+    font-size: 25pt;
+    background-color: tan;
+    color: navy;
+    width: 100px;
+    margin: 20px;
+    box-shadow: 5px 5px 5px grey;
+    transition: 1s;
+}
+
+#hover:hover {
+   transform: translate(-5px, -5px);
+   transition: 0.8s;
+   box-shadow: 10px 10px 5px gray;
+}
+
+#hover:active {
+    transform: translate(3px, 3px);
+    transition: 0.2s;
+    box-shadow: 2px 2px 2px grey;
+}
